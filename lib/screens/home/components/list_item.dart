@@ -65,8 +65,12 @@ class ListElement extends StatelessWidget {
       title: Row(
         children: [
           CircleAvatar(
+            backgroundColor: Theme.of(context).colorScheme.secondary,
             child: Text(
               contact.name.substring(0, 1).toUpperCase(),
+              style: TextStyle(
+                color: Colors.white,
+              ),
             ),
           ),
           const SizedBox(
