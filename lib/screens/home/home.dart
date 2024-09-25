@@ -1,4 +1,3 @@
-import 'package:agenda_de_contatos/model/contact.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {
@@ -6,13 +5,12 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    List<Contact> contacts = [];
     return Scaffold(
       appBar: AppBar(
         title: const Text("Meus contatos"),
       ),
       body: const Center(
-        child: Text('O contatos vão aqui'),
+        child: Text('A lista de contatos vai aqui!!!'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {

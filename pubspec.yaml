@@ -9,19 +9,21 @@ environment:
   sdk: "^3.0.5"
 
 dependencies:
-  mobx: ^2.3.3+2
-  flutter_mobx: ^2.2.1+1
   email_validator: ^3.0.0
   flutter:
     sdk: flutter
-  flutter_masked_text2: ^0.9.1
+  flutter_masked_text3: ^0.9.4
+  flutter_mobx: ^2.2.1+1
+  mobx: ^2.3.3+2
+  slideable: ^0.0.2
+  sqflite: ^2.3.3+1
 
 dev_dependencies:
   build_runner: ^2.4.12
-  mobx_codegen: ^2.6.1
   flutter_lints: ^4.0.0
   flutter_test:
     sdk: flutter
+  mobx_codegen: ^2.6.1
 
 flutter:
   uses-material-design: true
